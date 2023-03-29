@@ -13,13 +13,14 @@ img{
 h1{
   font-style: italic;
   font-family: ec;
-  color: rgb(255, 255, 255);
+  color: rgb(114, 52, 52);
   font-size: 24pt;
 }
 
 h2{
   margin-left: 10%;
   font-family:Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 h3{
@@ -59,21 +60,15 @@ form input{
 
 .nameBox{
   margin-top: 3%;
-  margin-left: 2%;
   color: rgb(255, 255, 255);
   padding: 10px;
 }
 .reviewBox{
-  margin-left: 2%;
   color: rgb(255, 255, 255);
 }
 .fakePlaceholder{
   padding: 10px;
 }
-.ratingSectionH1{
-  padding:10px;
-}
-
 
 form textarea{
   width: 100%;

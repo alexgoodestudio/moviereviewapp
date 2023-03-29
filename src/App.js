@@ -16,7 +16,9 @@ class App extends React.Component{
     username3:'',
     review1:'',
     review2:'',
-    review3:''
+    review3:'',
+    
+
   };
 
   getValue = (event) => {
@@ -55,7 +57,7 @@ render(){
               <div class="col-sm-4 imageBox p-2">
               <img src ={TheWhale}></img></div>
               <div class="col-8 ">
-                  <h1 className='mt-5 ms-3'>Ratings & Reviews: </h1>
+                  <h3 >Ratings & Reviews: </h3>
                 <div className='nameBox'>
                   <p>Name:</p>
                     {this.state.username1}
@@ -103,10 +105,10 @@ render(){
 <h2 >Pearl</h2><br/>
           <div class="container">
           <div class="row">
-              <div class="col-sm-4 imageBox p-2">
+              <div class="col-sm-4 imageBox ">
               <img src ={Pearl}></img></div>
               <div class="col-8 reviews">
-                  <h1 className='mt-5 ms-3'>Ratings & Reviews: </h1>
+                  <h3 >Ratings & Reviews: </h3>
                 <div className='nameBox'>
                   <p>Name:</p>
                     {this.state.username1}
@@ -148,7 +150,7 @@ render(){
               <div class="col-sm-4 imageBox p-2">
               <img src ={Weird}></img></div>
               <div class="col-8 reviews">
-                  <h1 className='mt-5 ms-3'>Ratings & Reviews: </h1>
+                  <h3 >Ratings & Reviews: </h3>
                 <div className='nameBox'>
                   <p>Name:</p>
                     {this.state.username1}
