@@ -1,99 +1,25 @@
 img{
-  width: 90%;
-  padding-left: 29px;
-  padding-right: 29px;
-  padding-top: 29px;
+  width: 100%;
+  border-radius: 55px;
+}
+.imageBox{
+  border: solid;
+  border-color: white;
   border-radius: 70px;
-}
-
-form{
-margin-left: 2%;
-}
-
-.background{
-  background-color: #e3f9ff;
-  color: rgb(0, 0, 0);
-  font-family: 'Times New Roman', Times, serif;
+  border-style: double;
+  border-width: 10px;
 }
 
 h1{
   font-style: italic;
   font-family: ec;
-  color: black;
-
-}
-
-form input{
-  margin-bottom: 10px;
-  
-}
-.inputBox{
-  background-color: #6cbcdb;;
-  padding: 20px;
-  margin-bottom: 2%;
-  border-bottom-left-radius: 30px;
-  font-family:Arial, Helvetica, sans-serif;
-
-}
-
-
-.imageBox{
-  background-color: #6cbcdb;
-  padding-left: 60px;
-
-}
-
-.reviews{
-  background-color: #6cbcdb;
-  border-left: solid;
-  border-color: #e3f9ff;
-  border-width: 20px;
-}
-
-.rightOfInput{
-  background-color: #6cbcdb;
-  border-left: solid;
-  border-color: #e3f9ff;
-  border-width: 20px;
-  margin-bottom: 2%;
-  border-bottom-left-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 24pt;
 }
 
 h2{
   margin-left: 10%;
   font-family:Arial, Helvetica, sans-serif;
-  
-}
-@font-face {
-  font-family: ec;
-  src: url(../src/components/EightiesComeback-Regular.otf);
-}
-
-.nameBox{
-  margin-top: 3%;
-  margin-left: 2%;
-  background-color: #e3f9ff;
-  color: rgb(125, 125, 125);
-  padding: 10px;
-}
-.reviewBox{
-  margin-left: 2%;
-  padding: 10px;
-  color: rgb(125, 125, 125);
-  background-color: #e3f9ff;
-}
-.fakePlaceholder{
-  color: rgb(125, 125, 125);
-  padding: 10px;
-}
-.ratingSectionH1{
-  padding:10px;
-}
-h1{
-  font-style: italic;
-  font-family: ec;
-  color: black;
-  font-size: 24pt;
 }
 
 h3{
@@ -103,15 +29,63 @@ h3{
   font-style: ec;
 }
 
+.background{
+  background-color: #54c6e6;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+form input{
+  margin-bottom: 10px;
+  
+}
+.inputBox{
+  padding: 20px;
+  margin-bottom: 2%;
+  border-bottom-left-radius: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+.rightOfInput{
+  margin-bottom: 2%;
+}
+
+@font-face {
+  font-family: ec;
+  src: url(../src/components/EightiesComeback-Regular.otf);
+}
+
+.nameBox{
+  margin-top: 3%;
+  margin-left: 2%;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.reviewBox{
+  margin-left: 2%;
+  color: rgb(255, 255, 255);
+}
+.fakePlaceholder{
+  padding: 10px;
+}
+.ratingSectionH1{
+  padding:10px;
+}
+
+
 form textarea{
   width: 100%;
 }
 form input{
   width: 100%;
+  
 }
 
 input[type='radio']{
   display:none;
+
 }
 
 .star{

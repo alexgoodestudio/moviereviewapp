@@ -47,14 +47,14 @@ render(){
     return(
 <div className='background'>
       <div>
-          <h1 className=' mainH border pt-3 ps-5 pb-3 mb-5'>TheReview | 2022</h1>
+          <h1 className=' mainH border pt-4 ps-5 pb-4 mb-5'>TheReview | 2022</h1>
 {/* -------------------------------------------------------------------------------- */}
           <h2 >The Whale</h2><br/>
           <div class="container">
           <div class="row">
-              <div class="col-sm-4 imageBox pt-3">
+              <div class="col-sm-4 imageBox p-2">
               <img src ={TheWhale}></img></div>
-              <div class="col-8 reviews">
+              <div class="col-8 ">
                   <h1 className='mt-5 ms-3'>Ratings & Reviews: </h1>
                 <div className='nameBox'>
                   <p>Name:</p>
@@ -103,7 +103,7 @@ render(){
 <h2 >Pearl</h2><br/>
           <div class="container">
           <div class="row">
-              <div class="col-sm-4 imageBox pt-3">
+              <div class="col-sm-4 imageBox p-2">
               <img src ={Pearl}></img></div>
               <div class="col-8 reviews">
                   <h1 className='mt-5 ms-3'>Ratings & Reviews: </h1>
@@ -113,11 +113,9 @@ render(){
                   
                 </div>
                 <br/>
-                <div className='reviewBox fakePlaceholder'>
-                
+                <div className='reviewBox'>
                   <p>Review:</p>
                   {this.state.review1}
-                  
                 </div>
                 </div>
           </div>
@@ -128,8 +126,7 @@ render(){
             <div class="col-sm-4 inputBox">
             <form>
               <div>
-              <StarRating/>
-                  <h4>Leave A Review!</h4>
+              <StarRating/> 
                   <label htmlFor="" ></label>
                   <input type="text" onChange={this.getValue} name='username1' placeholder='Name'/><br/>
               </div>
@@ -148,7 +145,7 @@ render(){
 <h2 >Weird</h2><br/>
           <div class="container">
           <div class="row">
-              <div class="col-sm-4 imageBox pt-3">
+              <div class="col-sm-4 imageBox p-2">
               <img src ={Weird}></img></div>
               <div class="col-8 reviews">
                   <h1 className='mt-5 ms-3'>Ratings & Reviews: </h1>
@@ -158,7 +155,7 @@ render(){
                   
                 </div>
                 <br/>
-                <div className='reviewBox fakePlaceholder'>
+                <div className='reviewBox '>
                 
                   <p>Review:</p>
                   {this.state.review1}
